@@ -5,8 +5,8 @@
 A critical challenge in autonomous driving is developing robust algorithms that enable road objects to be detected accurately in dynamic conditions. Using a small randomly generated subset of the open-source Berkeley DeepDrive BDD100K dataset, I trained a custom convolutional neural network and used transfer learning with a ResNet50 model to do multi-label image classification. A YOLOv8 and Segment Anything model (SAM) was trained to do instance segmentation. Given the small training subset of BDD100K (chosen to fit compute capacity), the models struggled to learn the nuances between classes and there is significant room for improvement in multi-label image classification.  Greater success was achieved in instance segmentation, where both the YOLO and SAM models were able to accurately detect different objects.
 
 ## Computer Vision Problems
-### > Multi-label Image Classification: (i.e., classify the images with different labels)
-### > Instance Segmentation (i.e., segment the images to improve object detection)
+### > Multi-label Image Classification
+### > Instance Segmentation
 
 ## Approaches
 ### Multi-label Image Classification
