@@ -104,12 +104,12 @@ Berkeley DeepDrive. Accessed August 11, 2023. https://bdd-data.berkeley.edu/
 
 ## Takeaways
  - Multi-label Image Classification
- - - Models had mediocre performance in predicting majority classes, and performed poorly with minority classes
+   - Models had mediocre performance in predicting majority classes, and performed poorly with minority classes
    - Resnet50 performed better than custom CNN with with test accuracy = 45%; loss = 0.4
  - Instance segmentation
- - - Both SAM and YOLO can effectively detect different objects
+   - Both SAM and YOLO can effectively detect different objects
  - Key Limitation:
- - - Dataset size (i.e., train n=3000): affected our models’ test accuracy especially in multi-label classification. With more training data our models could have better learned the nuances between object classes
+   - Dataset size (i.e., train n=3000): affected our models’ test accuracy especially in multi-label classification. With more training data our models could have better learned the nuances between object classes
 
 
 
